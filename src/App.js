@@ -108,7 +108,7 @@ function App() {
         <div style={modalStyle} className={classes.paper}>
           <center>
             <img
-              src="	https://i.imgur.com/L1V8o5v.png"
+              src="	https://i.imgur.com/6fROm5J.png"
               width={200}
               height={29}
               alt="Instagram original logo"
@@ -138,12 +138,6 @@ function App() {
             </button>
           </form>
 
-          <center className="authFooter">
-            <small>
-              &copy; 2021 Instagram Tribute by{" "}
-              <a href="mailto:bkrofegha@gmail.com@yahoo.com"> Blessing Krofegha</a>
-            </small>
-          </center>
         </div>
       </Modal>
 
@@ -152,7 +146,7 @@ function App() {
         <div style={modalStyle} className={classes.paper}>
           <center>
             <img
-                src="	https://i.imgur.com/L1V8o5v.png"
+                src="https://i.imgur.com/6fROm5J.png"
                 width={200}
                 height={29}
                 alt="Instagram original logo"
@@ -176,19 +170,13 @@ function App() {
             </button>
           </form>
 
-          <center className="authFooter">
-            <small>
-              &copy; 2021 Instagram Tribute by{" "}
-              <a href="mailto:bkrofegha@gmail.com@yahoo.com"> Blessing Krofegha</a>
-            </small>
-          </center>
         </div>
       </Modal>
 
       <div className="app__header">
         <div className="app__headerWrapper">
           <img
-              src="	https://i.imgur.com/L1V8o5v.png"
+              src="	https://i.imgur.com/6fROm5J.png"
               width={200}
               height={29}
               alt="Instagram original logo"
