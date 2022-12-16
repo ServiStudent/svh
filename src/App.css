@@ -52,6 +52,17 @@ button {
   font-weight: 600;
   text-align: center;
 }
+
+.primary__button2 {
+  background-color: #8b8b8b;
+  border-radius: 4px;
+  color: #fff;
+  cursor: not-allowed !important;
+  padding: 5px 9px;
+  font-weight: 600;
+  text-align: center;
+}
+
 .text__button {
   color: #0095f6;
   font-weight: 600;

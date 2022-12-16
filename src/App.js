@@ -215,6 +215,7 @@ function App() {
             username={post.username}
             caption={post.caption}
             imageUrl={post.imageUrl}
+            mission={post.mission}
           />
         ))}
       </div>

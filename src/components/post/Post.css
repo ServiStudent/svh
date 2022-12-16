@@ -18,6 +18,11 @@
   align-items: center;
   padding: 15px 20px;
 }
+.post__header2 {
+  align-items: center;
+  padding: 5px;
+  font-weight: normal !important;
+}
 .post__avatar {
   margin-right: 10px;
 }

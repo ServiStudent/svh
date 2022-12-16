@@ -3,7 +3,7 @@ import "./Post.css";
 import Avatar from "@material-ui/core/Avatar";
 import { db, fb } from "../../firebase/FirebaseInit";
 
-function Post({ postId, user, username, caption, imageUrl }) {
+function Post({ postId, user, username, caption, imageUrl, mission }) {
   const [comments, setComments] = useState([]);
   const [comment, setComment] = useState("");
 
@@ -48,6 +48,10 @@ function Post({ postId, user, username, caption, imageUrl }) {
           src="/static/images/avatar/1.jpg"
         />
         <h3>{username}</h3>
+
+      </div>
+      <div className="post__header2">
+        <h3>Mission: {mission}</h3>
       </div>
 
       {/* Image */}
