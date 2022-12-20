@@ -38,6 +38,17 @@ function Post({ postId, user, username, caption, imageUrl, mission }) {
     setComment("");
   };
 
+    const postCommentEmoji = (e) => {
+
+        db.collection("posts").doc(postId).collection("comments").add({
+            text: e,
+            username: user.displayName,
+            timestamp: fb.firestore.FieldValue.serverTimestamp(),
+        });
+
+        setComment("");
+    };
+
   return (
     <div className="post">
       <div className="post__header">
@@ -76,6 +87,13 @@ function Post({ postId, user, username, caption, imageUrl, mission }) {
       {/* Form for adding comments */}
       {user && (
         <form className="comment__form">
+            <div className="reaction-comments">
+                <p onClick={() => postCommentEmoji("💙")}>💙</p>
+                <p onClick={() => postCommentEmoji("😁")}>😁</p>
+                <p onClick={() => postCommentEmoji("😮")}>😮</p>
+                <p onClick={() => postCommentEmoji("😱")}>😱</p>
+                <p onClick={() => postCommentEmoji("👍")}>👍</p>
+            </div>
           <div className="comment__wrapper">
             <input
               className="comment__Input"

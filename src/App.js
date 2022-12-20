@@ -107,12 +107,7 @@ function App() {
       <Modal open={openSignup} onClose={() => setOpenSignup(false)}>
         <div style={modalStyle} className={classes.paper}>
           <center>
-            <img
-              src="	https://i.imgur.com/6fROm5J.png"
-              width={200}
-              height={29}
-              alt="Instagram original logo"
-            />
+            <h1 className={"appLogoColor"}>BeHybrid</h1>
           </center>
           <form className="app__signUp">
             <input
@@ -145,12 +140,8 @@ function App() {
       <Modal open={openLogin} onClose={() => setOpenLogin(false)}>
         <div style={modalStyle} className={classes.paper}>
           <center>
-            <img
-                src="https://i.imgur.com/6fROm5J.png"
-                width={200}
-                height={29}
-                alt="Instagram original logo"
-            />
+            <h1 className={"appLogoColor"}>BeHybrid</h1>
+
           </center>
           <form className="app__signUp">
             <input
@@ -175,12 +166,7 @@ function App() {
 
       <div className="app__header">
         <div className="app__headerWrapper">
-          <img
-              src="	https://i.imgur.com/6fROm5J.png"
-              width={200}
-              height={29}
-              alt="Instagram original logo"
-          />
+          <h1 className={"appLogo"}>BeHybrid</h1>
           {user ? (
             <button className="text__button" onClick={() => auth.signOut()}>
               Logout

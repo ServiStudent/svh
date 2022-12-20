@@ -89,15 +89,17 @@ function ImageUpload({ user }) {
                    <h5 className={"exitbutton"} onClick={handleShow}>{"<- Back"}</h5>
                <h1>Your photo mission today: </h1> {" "}
                <br/>
+               <div className={"textSpin"} >
                <TextLoop interval={spinterval}>
-                   <h1 id={"textA"}>Make a photo with all the pens on your desk.</h1>
-                   <h1 id={"textA"}>Make a photo with your to-do list.</h1>
-                   <h1 id={"textA"}>Make a photo of your trash bin.</h1>
-                   <h1 id={"textA"}>Make a photo of the view from your window.</h1>
-                   <h1 id={"textA"}>Take a photo of your calendar.</h1>
-                   <h1 id={"textA"}>Take a photo of your coffee/tea mug.</h1>
-                   <h1 id={"textA"}>Take a photo of the slippers/shoes you are currently wearing.</h1>
+                   <h4 className={"textSpin"} id={"textA"}>Make a photo with all the pens on your desk.</h4>
+                   <h4 className={"textSpin"} id={"textA"}>Make a photo with your to-do list.</h4>
+                   <h4 className={"textSpin"} id={"textA"}>Make a photo of your trash bin.</h4>
+                   <h4 className={"textSpin"} id={"textA"}>Make a photo of the view from your window.</h4>
+                   <h4 className={"textSpin"} id={"textA"}>Take a photo of your calendar.</h4>
+                   <h4 className={"textSpin"} id={"textA"}>Take a photo of your coffee/tea mug.</h4>
+                   <h4 className={"textSpin"} id={"textA"}>Take a photo of the slippers/shoes you <br/> are currently wearing.</h4>
                </TextLoop>
+               </div>
                <br/>
                <button className="primary__button uploadBtn" onClick={stopSpinner}>{spinButton}</button>
                <input

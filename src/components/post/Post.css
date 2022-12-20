@@ -26,7 +26,13 @@
 .post__avatar {
   margin-right: 10px;
 }
-
+.reaction-comments{
+  display: flex;
+  width: inherit;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 .post__comments {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;

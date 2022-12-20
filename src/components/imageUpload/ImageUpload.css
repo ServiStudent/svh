@@ -5,6 +5,13 @@
   margin-bottom: 25px;
 }
 
+.textSpin {
+  font-size: 15px;
+  height: 50px;
+  margin-top:10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
 .exitbutton {
   cursor: pointer;
 }
@@ -24,5 +31,7 @@
 }
 
 .uploadBtn {
+  align-self: center;
+  margin-top: 10px;
   width: 30%;
 }
