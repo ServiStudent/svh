@@ -88,11 +88,11 @@ function Post({ postId, user, username, caption, imageUrl, mission }) {
       {user && (
         <form className="comment__form">
             <div className="reaction-comments">
-                <p onClick={() => postCommentEmoji("💙")}>💙</p>
-                <p onClick={() => postCommentEmoji("😁")}>😁</p>
-                <p onClick={() => postCommentEmoji("😮")}>😮</p>
-                <p onClick={() => postCommentEmoji("😱")}>😱</p>
-                <p onClick={() => postCommentEmoji("👍")}>👍</p>
+                <p style={{cursor:"pointer"}} onClick={() => postCommentEmoji("💙")}>💙</p>
+                <p style={{cursor:"pointer"}} onClick={() => postCommentEmoji("😁")}>😁</p>
+                <p style={{cursor:"pointer"}} onClick={() => postCommentEmoji("😮")}>😮</p>
+                <p style={{cursor:"pointer"}} onClick={() => postCommentEmoji("😱")}>😱</p>
+                <p style={{cursor:"pointer"}} onClick={() => postCommentEmoji("👍")}>👍</p>
             </div>
           <div className="comment__wrapper">
             <input
